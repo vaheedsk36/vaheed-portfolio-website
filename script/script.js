@@ -7,6 +7,19 @@ const modal = document.querySelector(".modal-window");
 const closeButton = document.querySelector(".close-btn");
 const contactButton = document.querySelector(".contact-btn");
 
+let i = 0;
+
+const bgColorChanger = () => {
+  const colorCodes = ["top", "left", "bottom", "right"];
+  bodyColor.style.background = `linear-gradient(to ${colorCodes[i]}, #43cea2, #185a9d)`;
+  const colorCodes2 = ["#43cea2", "#0dc58b", "#0dac7a"];
+  spanColor.style.color = colorCodes2[i];
+  workColor.style.color = colorCodes2[i];
+  i = (i + 1) % colorCodes.length;
+};
+
+setInterval(bgColorChanger, 1500);
+
 window.onscroll = function () {
   myFunction();
 };
@@ -48,18 +61,7 @@ function closeMenu() {
 }
 
 //Background color changing animation refactored
-let i = 0;
 
-const bgColorChanger = () => {
-  const colorCodes = ["top", "left", "bottom", "right"];
-  bodyColor.style.background = `linear-gradient(to ${colorCodes[i]}, #43cea2, #185a9d)`;
-  const colorCodes2 = ["#43cea2", "#0dc58b", "#0dac7a"];
-  spanColor.style.color = colorCodes2[i];
-  workColor.style.color = colorCodes2[i];
-  i = (i + 1) % colorCodes.length;
-};
-
-setInterval(bgColorChanger, 2500);
 
 // const c1 = "linear-gradient(to top, #43cea2, #185a9d)";
 // const c2 = "linear-gradient(to left, #43cea2, #185a9d)";

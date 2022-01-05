@@ -162,6 +162,7 @@ footer {
   font-size: 1.2rem;
   font-weight: 500;
   line-height: 1.5;
+  background: linear-gradient(to top, #43cea2, #185a9d);
 }
 
 .about p {
@@ -347,7 +348,11 @@ footer {
   font-size: 2rem;
   margin-top: 1rem;
   background-image: linear-gradient(to bottom, #43cea2, #f7fbff);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
   background-clip: text;
+  -webkit-color: transparent;
+  -moz-color: transparent;
   color: transparent;
 }
 
