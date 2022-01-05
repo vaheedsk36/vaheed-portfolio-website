@@ -1,0 +1,15 @@
+Notes:
+Making a ajax call is bit complex with xmlHttps to ease that have fetch api in js.
+normal syntax:
+
+function name(){
+    
+	let  url = 'filename.txt';
+	try{
+	   let response = await fetch(url);
+	}
+	
+	
+	
+}
+ 
