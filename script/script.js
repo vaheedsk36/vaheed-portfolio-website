@@ -59,21 +59,3 @@ function closeMenu() {
   hamburger.classList.remove("active");
   navMenu.classList.remove("active");
 }
-
-//Background color changing animation refactored
-
-
-// const c1 = "linear-gradient(to top, #43cea2, #185a9d)";
-// const c2 = "linear-gradient(to left, #43cea2, #185a9d)";
-// const c3 = "linear-gradient(to bottom, #43cea2, #185a9d)";
-// const c4 = "linear-gradient(to right, #43cea2, #185a9d)";
-// //Background color changing animation
-// let i = 0;
-// const bgColorChanger = ()=>{
-//     const colorCodes = [c1,c2,c3,c4];
-//     // console.log(colorCodes[i]);
-//     bodyColor.style.background = colorCodes[i];
-//     i = (i+1)%colorCodes.length;
-// }
-
-// setInterval(bgColorChanger,2000);

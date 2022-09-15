@@ -1,0 +1,20 @@
+{
+  "name": "vaheed-portfolio-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Masood Akhtar Vaheed <vaheedsk36@gmail.com>",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.html"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "jquery": "^3.6.1"
+  },
+  "devDependencies": {
+    "sass": "^1.54.9"
+  }
+}
