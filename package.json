@@ -6,13 +6,16 @@
   "author": "Masood Akhtar Vaheed <vaheedsk36@gmail.com>",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.html"
+    "start": "nodemon index.html",
+    "postinstall": "patch-package"
   },
   "keywords": [],
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.2.1",
-    "jquery": "^3.6.1"
+    "jquery": "^3.6.1",
+    "particles.js": "^2.0.0",
+    "patch-package": "^6.4.7"
   },
   "devDependencies": {
     "sass": "^1.54.9"

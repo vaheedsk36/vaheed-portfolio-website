@@ -10943,6 +10943,12 @@ html {
   scroll-behavior: smooth;
 }
 
+#particles-js {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
 li {
   list-style: none;
 }
@@ -11093,7 +11099,6 @@ footer {
   font-size: 1.2rem;
   font-weight: 500;
   line-height: 1.5;
-  background: linear-gradient(to top, #43cea2, #185a9d);
 }
 
 ul.nav-menu {
