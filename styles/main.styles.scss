@@ -40,14 +40,14 @@ header {
   background-color: var(--navbar-color);
 }
 
-.navbar {
+.navbar__div {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 1.5rem;
 }
 
-.navbar a {
+.navbar__div a {
   font-size: 1.3rem;
 }
 
@@ -165,6 +165,12 @@ footer {
   line-height: 1.5;
   background: linear-gradient(to top, #43cea2, #185a9d);
 }
+
+ul.nav-menu{
+  margin-bottom: 0;
+}
+
+
 
 .about p {
   margin: 3rem;
