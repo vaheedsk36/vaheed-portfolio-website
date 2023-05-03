@@ -9,17 +9,6 @@ const contactButton = document.querySelector(".contact-btn");
 
 let i = 0;
 
-// const bgColorChanger = () => {
-//   const colorCodes = ["top", "left", "bottom", "right"];
-//   bodyColor.style.background = `linear-gradient(to ${colorCodes[i]}, #43cea2, #185a9d)`;
-//   const colorCodes2 = ["#43cea2", "#0dc58b", "#0dac7a"];
-//   spanColor.style.color = colorCodes2[i];
-//   workColor.style.color = colorCodes2[i];
-//   i = (i + 1) % colorCodes.length;
-// };
-
-// setInterval(bgColorChanger, 1500);
-
 window.onscroll = function () {
   myFunction();
 };
