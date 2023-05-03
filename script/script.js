@@ -1,13 +1,13 @@
 "use strict";
-const bodyColor = document.querySelector(".about");
-const spanColor = document.querySelector("#spancol");
-const workColor = document.querySelector("#work");
+// const bodyColor = document.querySelector(".about");
+// const spanColor = document.querySelector("#spancol");
+// const workColor = document.querySelector("#work");
 
 const modal = document.querySelector(".modal-window");
 const closeButton = document.querySelector(".close-btn");
 const contactButton = document.querySelector(".contact-btn");
 
-let i = 0;
+// let i = 0;
 
 window.onscroll = function () {
   myFunction();
