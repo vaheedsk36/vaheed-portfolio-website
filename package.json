@@ -12,7 +12,6 @@
   "keywords": [],
   "license": "ISC",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^6.4.0",
     "bootstrap": "^5.2.1",
     "jquery": "^3.6.1",
     "particles.js": "^2.0.0",
