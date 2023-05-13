@@ -17,6 +17,8 @@ html {
 
 #particles-js{
   position: absolute;
+  z-index: -1;
+  bottom: 0;
   height: 100%;
   width: 100%;
 }
