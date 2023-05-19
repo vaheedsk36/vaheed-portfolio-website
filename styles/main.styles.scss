@@ -1,7 +1,7 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
-
+@import "work-experience";
 $background: #00356B;
 * {
   margin: 0;
@@ -141,27 +141,16 @@ footer {
   border-top: 2px solid white;
 }
 
-.footer-bar {
-  list-style: none;
-  width: 20rem;
-  display: grid;
-  grid-template-columns: 6rem 6rem 6rem 6rem;
-}
-
-.footer-bar a {
-  text-decoration: none;
-  color: var(--white-color);
-  font-size: 1.17rem;
-  font-weight: bold;
-}
-
 #footer-bar {
-  text-align: right;
+  display: flex;
+  flex-wrap: nowrap;
+
 }
 
-.top-arrow {
-  background-color: #5d5df625;
-  padding: 0.6rem;
+.social-img{
+  width:40px;
+  height:40px;
+  margin-right:8px;
 }
 
 .about {
@@ -267,7 +256,8 @@ ul.nav-menu{
 
 .skills img {
   width: 8rem;
-  height: 6rem;
+  height: 7.5rem;
+  margin-right: 5px;
   margin-bottom: 1rem;
 }
 
@@ -767,6 +757,11 @@ div.close-btn {
 
   .footer-bar {
     margin-top: 1rem;
+  }
+  
+  .contact-list{
+    height: 10px;
+    width: 10px;
   }
 
   .footer-bar a {
