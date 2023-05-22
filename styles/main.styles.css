@@ -10961,18 +10961,15 @@ section {
   margin-bottom: 8rem;
 }
 
-footer {
+.footer-container {
   background-color: var(--transparent-white-light);
   padding: 1.5rem;
-  display: grid;
-  grid-template-columns: 25% 50% 25%;
-  justify-content: center;
+  display: flex;
+  justify-content: space-between;
   border-top: 2px solid white;
 }
-
-#footer-bar {
-  display: flex;
-  flex-wrap: nowrap;
+.footer-container .front-end-dev {
+  margin-left: 0;
 }
 
 .social-img {
