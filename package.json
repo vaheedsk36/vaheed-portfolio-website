@@ -4,11 +4,10 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "author": "Masood Akhtar Vaheed <vaheedsk36@gmail.com>",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel",
+    "start": "parcel serve --port 2500",
     "build": "parcel build",
     "postinstall": "patch-package"
   },
