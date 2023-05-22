@@ -134,10 +134,11 @@ section {
 
 .footer-container {
   background-color: var(--transparent-white-light);
-  padding: 1.5rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border-top: 2px solid white;
+  padding: 1rem;
 
   .front-end-dev{
     margin-left: 0;
