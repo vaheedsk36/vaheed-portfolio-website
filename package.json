@@ -1,12 +1,15 @@
 {
   "name": "vaheed-portfolio-website",
+  "source": "index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "author": "Masood Akhtar Vaheed <vaheedsk36@gmail.com>",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.html",
+    "start": "parcel",
+    "build": "parcel build",
     "postinstall": "patch-package"
   },
   "keywords": [],
@@ -18,8 +21,9 @@
     "patch-package": "^6.4.7"
   },
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
     "eslint": "^8.39.0",
-    "nodemon": "^2.0.22",
+    "parcel": "^2.8.3",
     "sass": "^1.54.9"
   }
 }
