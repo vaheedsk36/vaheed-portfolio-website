@@ -1,0 +1,208 @@
+header {
+    top: 0;
+    position: sticky;
+    background-color: var(--navbar-color);
+  }
+  
+  .navbar__div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+  
+    a {
+      font-size: 1.3rem;
+    }
+  }
+  
+  .hamburger {
+    display: none;
+  }
+  
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--white-color);
+  }
+  
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-item {
+    margin-left: 3rem;
+  }
+  
+  .nav-link {
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--white-color);
+  
+    &:hover {
+      color: #00ffea;
+    }
+  }
+  
+  .nav-logo {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    font-family: "Cookie", cursive;
+    color: var(--white-color);
+  }
+  
+  /* The progress container (grey background) */
+  
+  .progress-container {
+    width: 100%;
+    height: 5px;
+    background: #ccc;
+    padding: 0;
+  }
+  
+  /* The progress bar (scroll indicator) */
+  
+  .progress-bar {
+    height: 5px;
+    background: #04aa6d;
+    width: 0%;
+  }
+  
+  ul.nav-menu {
+    margin-bottom: 0;
+  }
+  
+  /* 600-981px*/
+  
+  @media only screen and (min-width: 600px) and (max-width: 800px) {
+    .nav-menu {
+      position: fixed;
+      left: -100%;
+      top: 4.5rem;
+      flex-direction: column;
+      background-color: var(--black-color);
+      width: 100%;
+      text-align: center;
+      transition: 0.3s;
+      box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+  
+    .active {
+      left: 0;
+    }
+  
+    .nav-item {
+      margin: 2.5rem 0;
+    }
+  
+    .hamburger {
+      display: block;
+      cursor: pointer;
+  
+      &.active .bar {
+        &:nth-child(2) {
+          opacity: 0;
+        }
+  
+        &:nth-child(1) {
+          transform: translateY(8px) rotate(45deg);
+        }
+  
+        &:nth-child(3) {
+          transform: translateY(-8px) rotate(-45deg);
+        }
+      }
+    }
+  }
+  
+  /* Galaxy A50 dimensions*/
+  
+  @media only screen and (min-width: 412px) and (max-width: 599px) {
+    .nav-menu {
+      position: fixed;
+      left: -100%;
+      top: 4.5rem;
+      flex-direction: column;
+      background-color: var(--black-color);
+      width: 100%;
+      text-align: center;
+      transition: 0.3s;
+      box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+  
+    .active {
+      left: 0;
+    }
+  
+    .nav-item {
+      margin: 2.5rem 0;
+    }
+  
+    .hamburger {
+      display: block;
+      cursor: pointer;
+  
+      &.active .bar {
+        &:nth-child(2) {
+          opacity: 0;
+        }
+  
+        &:nth-child(1) {
+          transform: translateY(8px) rotate(45deg);
+        }
+  
+        &:nth-child(3) {
+          transform: translateY(-8px) rotate(-45deg);
+        }
+      }
+    }
+  }
+  
+  /* for all the devices having width less than or equal to 411px*/
+  @media only screen and (max-width: 411px) {
+    .nav-menu {
+      position: fixed;
+      left: -100%;
+      top: 4.5rem;
+      flex-direction: column;
+      background-color: var(--black-color);
+      width: 100%;
+      text-align: center;
+      transition: 0.3s;
+      box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+  
+    .active {
+      left: 0;
+    }
+  
+    .nav-item {
+      margin: 2.5rem 0;
+    }
+  
+    .hamburger {
+      display: block;
+      cursor: pointer;
+  
+      &.active .bar {
+        &:nth-child(2) {
+          opacity: 0;
+        }
+  
+        &:nth-child(1) {
+          transform: translateY(8px) rotate(45deg);
+        }
+  
+        &:nth-child(3) {
+          transform: translateY(-8px) rotate(-45deg);
+        }
+      }
+    }
+  }
+  

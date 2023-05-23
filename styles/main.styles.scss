@@ -44,79 +44,6 @@ a {
   --light-green: #70f8156c;
 }
 
-header {
-  top: 0;
-  position: sticky;
-  background-color: var(--navbar-color);
-}
-
-.navbar__div {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 1.5rem;
-}
-
-.navbar__div a {
-  font-size: 1.3rem;
-}
-
-.hamburger {
-  display: none;
-}
-
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background-color: var(--white-color);
-}
-
-.nav-menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav-item {
-  margin-left: 3rem;
-}
-
-.nav-link {
-  font-size: 1.6rem;
-  font-weight: 400;
-  color: var(--white-color);
-}
-
-.nav-link:hover {
-  color: #00ffea;
-}
-
-.nav-logo {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-  font-weight: 500;
-  font-family: "Cookie", cursive;
-  color: var(--white-color);
-}
-
-/* The progress container (grey background) */
-.progress-container {
-  width: 100%;
-  height: 5px;
-  background: #ccc;
-  padding: 0;
-}
-
-/* The progress bar (scroll indicator) */
-.progress-bar {
-  height: 5px;
-  background: #04aa6d;
-  width: 0%;
-}
 
 h1 {
   font-size: 6vh;
@@ -161,10 +88,6 @@ section {
   font-size: 1.2rem;
   font-weight: 500;
   line-height: 1.5;
-}
-
-ul.nav-menu{
-  margin-bottom: 0;
 }
 
 
