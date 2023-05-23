@@ -2,8 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
-@import "navigation-bar";
+@import "header-section";
+@import "education-section";
 @import "work-experience";
+
 $background: #00356B;
 * {
   margin: 0;
@@ -186,72 +188,6 @@ section {
 .skills-img:hover{
   transform: scale(1.3);
   transition: 0.8s;
-}
-
-.senior-school,
-.high-school,
-.graduation {
-  border-radius: 3rem;
-  margin: 3rem auto;
-  background-color: var(--transparent-white);
-  padding: 2.5rem 0.5rem;
-  width: 70rem;
-  height: 15rem;
-  transition: 0.3s;
-  display: grid;
-}
-
-.senior-school,
-.graduation {
-  grid-template-columns: 12rem 50rem;
-}
-.high-school {
-  grid-template-columns: 50rem 12rem;
-}
-
-.senior-school h2,
-.high-school h2,
-.graduation h2 {
-  margin-bottom: 1.5rem;
-}
-
-.senior-school div,
-.high-school div,
-.graduation div {
-  padding-left: 5rem;
-}
-
-.senior-school:hover {
-  box-shadow: -13px -13px 13px var(--light-purple),
-    -13px 13px 13px var(--light-purple), 13px -13px 13px var(--light-purple),
-    13px 13px 13px var(--light-purple);
-}
-.high-school:hover {
-  box-shadow: -13px -13px 13px var(--light-yellow),
-    -13px 13px 13px var(--light-yellow), 13px -13px 13px var(--light-yellow),
-    13px 13px 13px var(--light-yellow);
-}
-.graduation:hover {
-  box-shadow: -13px -13px 13px var(--light-green),
-    -13px 13px 13px var(--light-green), 13px -13px 13px var(--light-green),
-    13px 13px 13px var(--light-green);
-}
-.grad-years1,
-.grad-years2,
-.grad-years3 {
-  width: 10rem;
-  height: 10rem;
-}
-
-.education-div {
-  text-align: center;
-  line-height: 2;
-  font-size: 1.2rem;
-}
-
-.education-div p span {
-  font-weight: 900;
-  color: #0fffdf;
 }
 
 .projects img {

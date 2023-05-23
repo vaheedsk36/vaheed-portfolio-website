@@ -1,0 +1,232 @@
+.senior-school, .high-school, .graduation {
+    border-radius: 3rem;
+    margin: 3rem auto;
+    background-color: var(--transparent-white);
+    padding: 2.5rem 0.5rem;
+    width: 70rem;
+    height: 15rem;
+    transition: 0.3s;
+    display: grid;
+  }
+  
+  .senior-school, .graduation {
+    grid-template-columns: 12rem 50rem;
+  }
+  
+  .high-school {
+    grid-template-columns: 50rem 12rem;
+  }
+  
+  .senior-school h2, .high-school h2, .graduation h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .senior-school div, .high-school div, .graduation div {
+    padding-left: 5rem;
+  }
+  
+  .senior-school:hover {
+    box-shadow: -13px -13px 13px var(--light-purple), -13px 13px 13px var(--light-purple), 13px -13px 13px var(--light-purple), 13px 13px 13px var(--light-purple);
+  }
+  
+  .high-school:hover {
+    box-shadow: -13px -13px 13px var(--light-yellow), -13px 13px 13px var(--light-yellow), 13px -13px 13px var(--light-yellow), 13px 13px 13px var(--light-yellow);
+  }
+  
+  .graduation:hover {
+    box-shadow: -13px -13px 13px var(--light-green), -13px 13px 13px var(--light-green), 13px -13px 13px var(--light-green), 13px 13px 13px var(--light-green);
+  }
+  
+  .grad-years1, .grad-years2, .grad-years3 {
+    width: 10rem;
+    height: 10rem;
+  }
+  
+  .education-div {
+    text-align: center;
+    line-height: 2;
+    font-size: 1.2rem;
+  
+    p span {
+      font-weight: 900;
+      color: #0fffdf;
+    }
+  }
+  
+  /* 600-981px*/
+  
+  @media only screen and (min-width: 600px) and (max-width: 800px) {
+    .senior-school, .high-school, .graduation {
+      border-radius: 3rem;
+      margin: 3rem auto;
+      padding: 2rem 0.5rem;
+      width: 30rem;
+      height: 16rem;
+    }
+  
+    .senior-school, .graduation {
+      grid-template-columns: 7rem 20rem;
+    }
+  
+    .high-school {
+      grid-template-columns: 20rem 7rem;
+    }
+  
+    .senior-school h2, .high-school h2, .graduation h2 {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+  
+    .senior-school div, .high-school div, .graduation div {
+      padding-left: 0.5rem;
+    }
+  
+    .grad-years1, .grad-years2, .grad-years3 {
+      width: 5rem;
+      height: 5rem;
+    }
+  }
+  
+  /* Galaxy A50 dimensions*/
+  
+  @media only screen and (min-width: 412px) and (max-width: 599px) {
+    .senior-school, .high-school, .graduation {
+      border-radius: 3rem;
+      margin: 3rem auto;
+      padding: 1rem 0.5rem;
+      width: 22rem;
+      height: 18rem;
+    }
+  
+    .senior-school, .graduation {
+      grid-template-columns: 5rem 15rem;
+    }
+  
+    .high-school {
+      grid-template-columns: 15rem 5rem;
+    }
+  
+    .senior-school h2, .high-school h2, .graduation h2 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    .senior-school div, .high-school div, .graduation div {
+      padding-left: 0.5rem;
+    }
+  
+    .senior-school {
+      box-shadow: -5px -5px 2px #c70f9f;
+    }
+  
+    .high-school {
+      box-shadow: -5px -5px 2px #eafa06;
+    }
+  
+    .graduation {
+      box-shadow: -5px -5px 2px #70f815;
+    }
+  
+    .grad-years1, .grad-years2, .grad-years3 {
+      width: 5rem;
+      height: 5rem;
+    }
+  
+    .education-div {
+      text-align: left;
+      line-height: 2;
+      font-size: 1rem;
+    }
+  }
+  
+  /* for all the devices having width less than or equal to 411px*/
+  @media only screen and (max-width: 411px) {
+    .senior-school, .high-school, .graduation {
+      border-radius: 1rem;
+      margin: 3rem auto;
+      padding: 1rem 0.5rem;
+      width: 20rem;
+      height: 18rem;
+      display: flex;
+    }
+  
+    .senior-school, .graduation {
+      grid-template-columns: 5rem 15rem;
+    }
+  
+    .high-school {
+      grid-template-columns: 15rem 5rem;
+    }
+  
+    .senior-school h2, .high-school h2, .graduation h2 {
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    .senior-school div, .high-school div, .graduation div {
+      padding-left: 0.5rem;
+    }
+  
+    .senior-school {
+      box-shadow: -3px -3px 20px #c70f9f;
+    }
+  
+    .high-school {
+      box-shadow: -3px -3px 20px #eafa06;
+    }
+  
+    .graduation {
+      box-shadow: -3px -3px 20px #70f815;
+    }
+  
+    .grad-years1, .grad-years2, .grad-years3 {
+      width: 5rem;
+      height: 5rem;
+    }
+  
+    .education-div {
+      text-align: left;
+      line-height: 1.8;
+      font-size: 1rem;
+    }
+  }
+  
+  /* Small screens, laptops */
+  @media only screen and (min-width: 801px) and (max-width: 1164px) {
+    .senior-school, .high-school, .graduation {
+      border-radius: 10rem;
+      margin: 3rem auto;
+      padding: 2rem 0.5rem;
+      width: 50rem;
+      height: 15rem;
+      display: flex;
+    }
+  
+    .senior-school, .graduation {
+      grid-template-columns: 10rem 38rem;
+    }
+  
+    .high-school {
+      grid-template-columns: 40rem 5rem;
+    }
+  
+    .senior-school h2, .high-school h2, .graduation h2 {
+      margin-bottom: 1.5rem;
+    }
+  
+    .senior-school div, .high-school div, .graduation div {
+      padding: 0.8rem;
+    }
+  
+    .grad-years1, .grad-years2, .grad-years3 {
+      width: 9rem;
+      height: 9rem;
+    }
+  
+    .education-div {
+      text-align: center;
+      line-height: 2;
+      font-size: 1rem;
+    }
+  }
+  
