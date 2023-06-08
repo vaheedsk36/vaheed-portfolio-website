@@ -15,6 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.2.1",
+    "fontawesome-4.7": "^4.7.0",
     "jquery": "^3.6.1",
     "particles.js": "^2.0.0",
     "patch-package": "^6.4.7"
